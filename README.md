@@ -48,7 +48,6 @@ Git → GitHub → Netlify → Internet (CDN + HTTPS)
 ## 🔧 Project Setup (AWS Phase)
 
 ### 1. Connect to EC2
-```bash
 ssh -i key.pem ec2-user@YOUR_IP
 
 2. Install NGINX
