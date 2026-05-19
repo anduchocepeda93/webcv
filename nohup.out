@@ -1,0 +1,8 @@
+[2026-05-19 05:20:12 +0000] [17436] [INFO] Starting gunicorn 23.0.0
+[2026-05-19 05:20:12 +0000] [17436] [INFO] Listening at: http://127.0.0.1:5000 (17436)
+[2026-05-19 05:20:12 +0000] [17436] [INFO] Using worker: sync
+[2026-05-19 05:20:12 +0000] [17437] [INFO] Booting worker with pid: 17437
+[2026-05-19 05:32:23 +0000] [17437] [INFO] Worker exiting (pid: 17437)
+[2026-05-19 05:32:23 +0000] [17436] [INFO] Handling signal: term
+[2026-05-19 05:32:23 +0000] [17436] [ERROR] Worker (pid:17437) was sent SIGTERM!
+[2026-05-19 05:32:23 +0000] [17436] [INFO] Shutting down: Master
