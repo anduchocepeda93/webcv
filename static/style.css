@@ -75,9 +75,9 @@
     .hero-name span { color: var(--gold); }
 
     .hero-title {
-      font-size: 1.1rem;
-      font-weight: 300;
-      color: var(--gray);
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: var(--white);
       margin-top: 18px;
       letter-spacing: .05em;
       animation: fadeUp .8s .3s ease both;
@@ -535,6 +535,27 @@
   border-left: 2px solid rgba(201,168,76,.35);
   padding-left: 16px;
 }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+  color: rgba(245,240,232,.75);
+}
+
+ul li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: rgba(245,240,232,.75);
+}
+
+
 
 .about-skills-cloud { }
 
